@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEE;
+    font-family:'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999E;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+p{
+   margin: 0 auto;
+   line-height: 1.5rem; 
+}
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 5px;
+}
+/* start of header  */
+.profile-image{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%; 
+   float: left;
+   border: 3px solid #dddddd;
+}
+.header-bio{
+   float: left;
+   margin-top: 20px;
+   padding: 0 20px;
+
+}
+.header-contact{
+    margin-top: 20px;
+    float: right;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+/* end of header */
+
+.clear-div{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* personal information start */
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+/* personal information end  */
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+ 
+/* work experience start here  */
+.edu-template-left{
+    float: left;
+    width: 50%;
+}
+.edu-template-right{
+    float: right;
+    width: 50%;
+}
+
+/* work experience end here  */
+
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
+/*
